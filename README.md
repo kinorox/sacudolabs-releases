@@ -31,7 +31,14 @@ O SacudoLabs é um projeto independente, sem vínculo com o Huntera.
    instalador ainda não tem assinatura digital (um certificado pago, que fica para perto
    da versão 1.0), não porque algo foi encontrado nele. Para conferir que o arquivo é o
    publicado, veja [Conferir o instalador](#conferir-o-instalador).
-4. O instalador não pede senha de administrador: ele instala só para o seu usuário, em
+4. Se aparecer **"O controle inteligente de aplicativos bloqueou um aplicativo"** (Windows 11
+   com esse controle ligado), não há "Executar assim mesmo": abra **Segurança do Windows →
+   Controle de aplicativos e do navegador → Configurações do Controle Inteligente de
+   Aplicativos**, escolha **Desativado** e abra o instalador de novo. Esse controle barra
+   todo programa sem assinatura digital, o SacudoLabs instalado também, então ele precisa
+   ficar desativado enquanto você usar o app. Antes da atualização de abril de 2026 do
+   Windows (KB5083769), desativar é definitivo: só volta reinstalando o Windows.
+5. O instalador não pede senha de administrador: ele instala só para o seu usuário, em
    `%LOCALAPPDATA%\Programs\SacudoLabs`, e cria o atalho no Menu Iniciar. No fim, deixe
    marcado **Abrir o SacudoLabs**.
 
